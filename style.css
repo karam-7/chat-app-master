@@ -234,6 +234,8 @@ i{
     margin-left: -25px;
     margin-top: 3px;
     cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
 }
 
 /* ===========================End Phone div AREA======================= */
