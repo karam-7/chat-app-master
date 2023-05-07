@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1340px;     
+    min-height: 100vh; 
+    align-items: center;
+    text-align: center;
+    background-color: hsl(270, 20%, 96%);
+    overflow-x: hidden;
+}
+
+/* ======================== Star Main Area ================ */
+
+.top-bg{
+    position: absolute;
+    background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    left: -69px;
+    height: 700px;
+    width: 400px;
+    border-radius: 0px 0px 400px 400px;
+    z-index: -1;
+}
+
+#site{
+    display: flex;
+    padding: 5rem 18rem;
+    gap: 5rem;
+}
+
+/* ===========================Start Phone div AREA======================= */
+
+#phone{
+    width: 360px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.empty{
+    width: 200px;
+    height: 35px ;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 75px;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+       
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    padding: 2.5rem 0.5rem 1rem 1rem;    
+    border-radius: 15px;
+}
+
+.head-img{
+    width: 10%;
+    border-radius: 100%;
+    border: 2px solid hsl(270, 7%, 64%);
+    margin-left: 0.5rem;
+}
+
+i{
+    color: hsl(0, 0%, 100%);
+}
+
+.dot{
+   margin-left: 95px;   
+}
+
+.head-name{
+    font-size: 1.2rem;
+    font-family: 'Rubik';
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.head-span{
+    font-size: 0.8rem;
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: hsl(276, 100%, 81%);
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    align-items: start;
+    gap: 0.4rem;
+}
+
+
+.message{
+    background-color: hsl(270, 20%, 96%);
+    padding: 1rem 0.5rem;
+}
+
+.msg{
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(0, 0%, 68%);
+    text-align: start;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 68%;
+}
+
+.three{
+    margin-top: 10rem;   
+}
+
+
+.msg-span{
+    font-size: 1rem;   
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: right;
+    margin-top: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.pic-img{
+    width: 15%;
+    border-radius: 10px;
+}
+
+.msg1{
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(0, 0%, 100%);
+    text-align: start;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 68%;
+    float: right;   
+    line-height: 1.5rem; 
+}
+
+.short{
+    width: auto;
+}
+
+.msg1-span{
+    font-size: 1rem;   
+    font-family: 'Rubik';
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.msg2{
+    text-align: start;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    width: 75%;
+    align-items: center;
+}
+
+.radio{
+    border: none;
+    border: 2px solid hsl(289, 100%, 72%);
+    outline-style: none;
+    background: transparent;
+}
+
+.msg2-span{
+    font-size: 0.95rem;   
+    font-family: 'Rubik';
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.msg2-span1{
+    float: right;
+    font-size: 1.2rem;   
+    font-family: 'Rubik';
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.in{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.put{
+    padding: 1rem;
+    border: none;
+    border-radius: 15px;
+    width: 95%;
+    height: 45px;
+    margin-bottom: 1rem;
+    color: hsl(206, 6%, 79%);
+    font-size: 1.1rem;
+    font-family: 'Rubik';
+    font-weight: 500;
+    outline: none;
+}
+
+.put::placeholder{
+    color: hsl(206, 6%, 79%);
+}
+
+.btn{
+    height: 40px;
+    border-radius: 100%;
+    background-color: hsl(271, 36%, 24%);
+    border: none;
+    padding: 0.5rem;
+    z-index: 1;
+    margin-left: -25px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+/* ===========================End Phone div AREA======================= */
+/* ===========================Start Info div AREA======================= */
+
+#info{
+    margin-top: 20rem;
+    text-align: start;
+
+}
+
+.info-h1{
+    font-size: 2rem;
+    font-family: 'Rubik';
+    font-weight: 700;
+    color: hsl(271, 36%, 24%);
+}
+
+.info-para{
+    font-size: 1.2rem;
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: hsl(270, 7%, 64%);
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    width: 550px;
+}
+/* ===========================End Info div AREA======================= */
+
+.bottom-bg{
+    position: absolute;
+    background-image: linear-gradient(hsl(240, 16%, 96%), hsl(300, 7%, 97%));
+    top: 374px;
+    right: -1px;
+    height: 700px;
+    width: 300px;
+    border-radius: 400px 0px 0px 0px;
+    z-index: -1;
+}
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: hsl(240, 10%, 16%);
+    padding: 5px;
+  }
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+  
+  
+  /* ======================== End Footer Area ================ */
+  
+  /* ======================== Start Media Querry Area ================ */
+@media screen and (max-width:1375px) {
+
+    body{
+        position: absolute;
+    }
+
+    #site{
+        padding: 5rem 12rem;
+    }
+
+    .empty{       
+        margin-left: 60px;
+    }
+
+    .msg-span{
+        font-size: 0.9rem;
+    }
+
+    .three .msg-span{
+        font-size: 0.95rem;
+    }
+
+    .msg1-span{
+        font-size: 0.9rem;
+    }
+
+    .msg2{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:375px){
+    body{
+        min-width: 375px;
+    }
+
+    .top-bg{
+        width: 250px;
+    }
+
+    #site{
+        flex-direction: column;
+        padding: 5rem 2rem;
+    }
+
+    #info{
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .info-para{
+        width: 365px;
+    }
+
+    .bottom-bg{
+        top: 657px;
+        width: 250px;
+    }
+}
+
+  /* ======================== End Media Querry Area ================ */
